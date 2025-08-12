@@ -118,12 +118,12 @@ export default function Page() {
     <main className="relative bg-black min-h-screen">
       {/* Video 1 */}
       <VideoSection
-        src="/landing-mobile.mp4"
+        src="/three2.mp4"
         label="Video 1: Relámpagos y templo"
         id="1"
       />
 
-      <div className="absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center w-full z-20">
+      <div className="absolute top-[65%] left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center w-full z-20">
         {showButton && !openForm && (
           <button
             id="cta-button"
@@ -133,11 +133,11 @@ export default function Page() {
             <img
               src={`/button-2.png`}
               alt="Logo principal"
-              width={360}
-              height={100}
+              width={460}
+              height={120}
               className="object-contain pointer-events-none select-none"
             />
-          </button>
+          </button> 
         )}
       </div>
 
